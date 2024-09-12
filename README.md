@@ -22,10 +22,24 @@ This project analyzes and visualizes e-commerce sales data using PostgreSQL, Pan
   - `python_scripts/`: Python scripts for data cleaning and visualization.
 - `visualizations/`: Contains generated visualizations in PNG format.
 
+## Cloning the Repository
+
+To clone this repository to your local machine, use the following command:
+
+```bash
+git clone https://github.com/tymoteuszmilek/E-Commerce-Sales-Data-Analysis.git
+```
+
 ## Setup Instructions
 
 1. **Unpack the Data**:
    - Unzip the files in the `data/` directory if they are in gzip format.
+     Use the following command to unpack them:
+
+```bash
+gzip -d data/cleaned_data/*.gz
+```
+Ensure all files are unpacked before proceeding with the data processing.
 
 2. **Create Database**:
    - Create a new PostgreSQL database.
