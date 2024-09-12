@@ -24,26 +24,29 @@ This project analyzes and visualizes e-commerce sales data using PostgreSQL, Pan
 
 ## Setup Instructions
 
-1. **Create Database**:
+1. **Unpack the Data**:
+   - Unzip the files in the `data/` directory if they are in gzip format.
+
+2. **Create Database**:
    - Create a new PostgreSQL database.
 
-2. **Data Cleaning**:
+3. **Data Cleaning**:
    - Navigate to the `python_scripts` folder.
    - Run `python3 clean_data.py` to clean the dataset.
 
-3. **Database Initialization**:
+4. **Database Initialization**:
    - Navigate to the `db_scripts` folder.
    - Log in to PostgreSQL using `psql -U [username] [database_name]`.
    - Execute `\i run_initializer.sql` to create tables, insert data, and create indexes and views.
 
-4. **Extract Data**:
+5. **Extract Data**:
    - Run `\i csv_extractor.sql` to export queried data into CSV files.
 
-5. **Generate Visualizations**:
+6. **Generate Visualizations**:
    - Navigate to the `python_scripts` folder.
    - Run `python3 visualization.py` to generate visualizations.
 
-6. **Check the `visualizations` folder** for the saved charts.
+7. **Check the `visualizations` folder** for the saved charts.
 
 ## Data Description
 
