@@ -36,10 +36,10 @@ git clone https://github.com/tymoteuszmilek/E-Commerce-Sales-Data-Analysis.git
    - Unzip the files in the `data/` directory if they are in gzip format.
      Use the following command to unpack them:
 
-```bash
-gzip -d data/cleaned_data/*.gz
-```
-Ensure all files are unpacked before proceeding with the data processing.
+    ```bash
+    gzip -d data/cleaned_data/*.gz
+    ```
+   - Ensure all files are unpacked before proceeding with the data processing.
 
 2. **Create Database**:
    - Create a new PostgreSQL database.
