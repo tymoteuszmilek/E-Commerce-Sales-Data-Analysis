@@ -37,7 +37,7 @@ git clone https://github.com/tymoteuszmilek/E-Commerce-Sales-Data-Analysis.git
      Use the following command to unpack them:
 
     ```bash
-    gzip -d data/cleaned_data/*.gz
+    gzip -d data/uncleaned_data/*.gz
     ```
    - Ensure all files are unpacked before proceeding with the data processing.
 
