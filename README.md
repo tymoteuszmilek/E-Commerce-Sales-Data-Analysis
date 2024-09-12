@@ -57,4 +57,4 @@ The datasets used are from [Unlock Profits with E-Commerce Sales Data](https://w
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/tymoteuszmilek/E-Commerce-Sales-Data-Visualization/blob/main/LICENSE.md) file for details.
