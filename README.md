@@ -1,5 +1,7 @@
 # E-Commerce Sales Data Analysis
 
+![Sample Visualization](visualizations/amazon_sales_by_category_and_size.png)
+
 ## Project Overview
 
 This project analyzes and visualizes e-commerce sales data using PostgreSQL, Pandas, and Matplotlib. The aim is to provide insights into sales trends, distribution by categories, and other key metrics through various visualizations.
